@@ -1,0 +1,39 @@
+.product-detail {
+    width: 100%;
+    display: flex;
+    /* justify-content: center;
+    flex-wrap: wrap; */
+
+    margin: 20px 0px;
+}
+.product-detail img {
+    max-width: 400px;
+    width: 50%;
+    height: 450px;
+
+    display: block;
+    object-fit: cover;
+    margin: 0 80px;
+
+}
+.product-content {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.product-content h2 {
+    text-transform: uppercase;
+}
+.product-content span {
+    color: crimson;
+    font-size: 20px;
+    font-weight: 500;
+}
+.product-detail__btn {
+    max-width: 500px;
+    display: flex;
+}
+.product-detail__btn .btn {
+    
+}
